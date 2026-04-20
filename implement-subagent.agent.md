@@ -20,6 +20,7 @@ You are an IMPLEMENTATION SUBAGENT. You receive focused implementation tasks fro
 - Use context7 (if available) to refer to documentation of code libraries.
 - Use #changes to review changes at any time
 - **DO NOT** reset or undo file changes that are unrelated to your work.
+- **DO NOT** make guesses or assumptions about code, requirements, instructions, or implementation details. Always use the #tool:vscode/askQuestions for clarification from the user if anything is unclear, at any point.  
 - When running tests, run the individual test file first, then the full suite to check for regressions
 
 **When uncertain about implementation details:**

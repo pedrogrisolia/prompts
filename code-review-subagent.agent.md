@@ -14,6 +14,7 @@ CRITICAL: You receive context from the parent agent including:
 <review_workflow>
 
 1. **Analyze Changes**: Review the code changes using #changes, #usages, and #problems to understand what was implemented.
+- **DO NOT** make guesses or assumptions about code, requirements, instructions, or implementation details. Always use the #tool:vscode/askQuestions for clarification from the user if anything is unclear, at any point.  
 
 2. **Run Unit and Real-World Tests**: Execute any relevant tests to verify correctness and expected behavior. Use #terminalSelection, #terminalLastCommand, and #getTerminalOutput to assist. If it is a frontend change, use your browser tools to verify the UI/UX behaves as expected. If it is a backend change, use API testing tools to verify endpoints work as expected. Test against edge cases that may not have been covered.
 
